@@ -1,10 +1,35 @@
 package com.example.demo;
 
-import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootTest
-class DemoApplicationTests {
+@SpringBootApplication
+public class DemoApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(DemoApplication.class, args);
+
+		String name = "vamsi";
+
+		System.out.println(name);
+
+		Integer age = "20";
+		System.out.println(age + 5);
+
+	}
+
+}
+
+
+// package com.example.demo;
+
+// import org.junit.jupiter.api.Test;
+// import org.springframework.boot.test.context.SpringBootTest;
+
+// @SpringBootTest
+
+
+// class DemoApplicationTests {
 
 	// @Before
     // public void setup() {
@@ -43,8 +68,8 @@ class DemoApplicationTests {
     //     assertTrue(count == 1);
     // }
 
-	@Test
-	void contextLoads() {
-	}
+// 	@Test
+// 	void contextLoads() {
+// 	}
 
-}
+// }
