@@ -60,7 +60,7 @@ under the License.
        <repository>
          <id>nexus-snapshot-repo</id>
          <name>your custom repo</name>
-         <url>http://3.82.109.108:8081/repository/maven-snapshots/</url>
+         <url>http://3.87.236.78:8081/repository/maven-snapshots/</url>
        </repository>
 	   
      </repositories>
@@ -83,7 +83,7 @@ under the License.
         <activeByDefault>true</activeByDefault>
       </activation>
       <properties>
-        <sonar.host.url>http://44.202.52.11:9000</sonar.host.url>
+        <sonar.host.url>http://3.80.69.96:9000</sonar.host.url>
       </properties>
     </profile>
     <!--End SonarQube/Sonar Profile-->
